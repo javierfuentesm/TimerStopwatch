@@ -66,7 +66,7 @@ export default class TestApp extends Component {
 const handleTimerComplete = () => alert("Custom Completion Function");
 const options = {
   container: {
-    backgroundColor: '#FF0000',
+    backgroundColor: '#0000ff',
     padding: 5,
     borderRadius: 5,
     width: 200,
