@@ -50,35 +50,14 @@ export default class TestApp extends Component {
             getTime={this.getFormattedTime} />
           <TouchableHighlight onPress={this.startStopStopWatch}>
             <Text style={{fontSize: 20, marginTop:10}}>
-              {!this.state.isStopwatchStart ? "START" : "STOP"}
+              {!this.state.isStopwatchStart ? "Iniciar" : "Pausar"}
             </Text>
           </TouchableHighlight>
           <TouchableHighlight onPress={this.resetStopwatch}>
-            <Text style={{fontSize: 20, marginTop:10}}>RESET</Text>
+            <Text style={{fontSize: 20, marginTop:10}}>Terminar</Text>
           </TouchableHighlight>
         </View>
-        <View style={{flex:1,marginTop:32, alignItems:'center', justifyContent:'center'}}>
-          <Timer 
-            totalDuration={this.state.timerDuration} msecs 
-            //Time Duration
-            start={this.state.isTimerStart}
-            //To start
-            reset={this.state.resetTimer}
-            //To reset
-            options={options}
-            //options for the styling
-            handleFinish={handleTimerComplete}
-            //can call a function On finish of the time 
-            getTime={this.getFormattedTime} />
-          <TouchableHighlight onPress={this.startStopTimer}>
-            <Text style={{fontSize: 20, marginTop:10}}>
-               {!this.state.isTimerStart ? "START" : "STOP"}
-            </Text>
-          </TouchableHighlight>
-          <TouchableHighlight onPress={this.resetTimer}>
-            <Text style={{fontSize: 20, marginTop:10}}>RESET</Text>
-          </TouchableHighlight>
-        </View>
+
       </View>
     );
   }
