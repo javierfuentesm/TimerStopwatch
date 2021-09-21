@@ -5087,6 +5087,13 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.1.tgz#0612786bf19df406502d935494f0450b40b8294f"
   integrity sha512-BXUMf9sIOPXXZWqr7+c5SeOKJykyVr2u0UDzEf4LNGc6taGkQe1A9DFD07umCIXz45RLr9oAAwZbAJ0Pkknfaw==
 
+react-native-stopwatch-timer@0.0.21:
+  version "0.0.21"
+  resolved "https://registry.yarnpkg.com/react-native-stopwatch-timer/-/react-native-stopwatch-timer-0.0.21.tgz#52c39f603e36c538bed3466212b1bfb350ed452f"
+  integrity sha512-qFFsD85NkBT1nxo32HMGq3XAtQyMC09p9ZDIEuOED2BOxgs0UpWg/FSTA0MmEoIKMyXUwSE5VxEzBaGP3z1HFw==
+  dependencies:
+    prop-types "^15.7.2"
+
 react-native@0.61.1:
   version "0.61.1"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.61.1.tgz#ac2559f78f9e689356fedfa93159026a25313d7d"
@@ -5987,9 +5994,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
